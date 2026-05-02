@@ -1,0 +1,14 @@
+[
+    {
+        "issue": "Payment failed due to timeout.",
+        "resolution": "Check the payment gateway connection and retry the transaction."
+    },
+    {
+        "issue": "User cannot login, account locked.",
+        "resolution": "Unlock the account from the admin panel and send a password reset link."
+    },
+    {
+        "issue": "High latency in loading transaction history.",
+        "resolution": "Optimize database indices on the transactions table."
+    }
+]
