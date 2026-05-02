@@ -14,8 +14,14 @@ if st.button("Analyze"):
         st.subheader("Diagnosis")
         st.write(result.get("diagnosis"))
 
+        st.subheader("Log Insight")
+        st.write(result.get("log_hint"))
+
         st.subheader("Log Analysis")
         st.write(result.get("log_analysis"))
 
         st.subheader("Resolution")
         st.write(result.get("resolution"))
+
+        st.subheader("Resolution Confidence")
+        st.write(result.get("resolution_confidence"))
